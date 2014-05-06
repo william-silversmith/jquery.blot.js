@@ -1,0 +1,34 @@
+{
+    "name": "blot",
+    "title": "Blot",
+    "description": "Cartoon blot in / blot out transition effect.",
+    "keywords": [
+        "effect",
+        "transition",
+        "blot",
+        "expanding",
+        "contracting",
+        "cartoon"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "William Silversmith",
+    },
+    "maintainers": [
+        {
+            "name": "William Silversmith",
+            "email": "william.silversmith@gmail.com",
+            "url": "https://twitter.com/willsilversmith"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.githubusercontent.com/william-silversmith/jquery.blot.js/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/william-silversmith/jquery.blot.js/issues",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
