@@ -11,7 +11,7 @@ jquery.blot.js requires jquery.centerIn.js. A version of jquery.centerIn.js, cou
 
 var callback = function () {};
 
-// Ring expanding inward
+// Ring contracting inward
 
 - $.blotIn(callback); // create
 - $.blotIn.off(callback); // remove
