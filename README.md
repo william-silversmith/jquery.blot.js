@@ -9,11 +9,21 @@ jquery.blot.js requires jquery.centerIn.js. A version of jquery.centerIn.js, cou
 
 ## Examples
 
-- $.blotIn(function () { /* no op */ }); // create
-- $.blotIn.off(function () { /* no op */ }); // remove
+var callback = function () {};
 
-- $.blotOut(function () { /* no op */ }); // create
-- $.blotOut.off(function () { /* no op */ }); // remove
+// Ring expanding inward
+
+- $.blotIn(callback); // create
+- $.blotIn.off(callback); // remove
+
+// Circle expanding outward
+
+- $.blotOut(callback); // create
+- $.blotOut.off(callback); // remove
+
+You can also specify alternate durations (in msec) and easings like so:
+
+- $.blotIn({ duration: 2000, easing: "swing" }, callback)
 
 ## Additional Work
 
